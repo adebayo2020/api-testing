@@ -23,7 +23,7 @@
 
                     <li class="list-group-item" id="custom" v-for="user in users" :key="user.id">
                         {{user.name}}
-                        <span id="custom-btn"  @click="deleteName">X</span>
+                        <span id="custom-btn"  @click="deleteName(user)">X</span>
                     </li> 
                 </ul>
             
